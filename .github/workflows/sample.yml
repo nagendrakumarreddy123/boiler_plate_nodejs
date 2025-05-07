@@ -2,7 +2,7 @@ name: CI worflow
 on:
   push:
      branches:
-         -main
+         - main
 jobs:
     build:
         name: Build and Test
